@@ -5,13 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>signup</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
   <link rel="stylesheet" href="..\css\mystyl.css">
   <style>
 	body{
 	  margin: 0;
 	  padding: 0;
 	}
-	
+	.container{
+  background: cornflowerblue;
+  width:100vw;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
 	.box{
 		width: 600px;
 		height: 600px;
@@ -92,7 +101,7 @@
 		
      <div class="image_display">
 		<div class="overlay">
-			<h3>I want to place a background image here</h3>
+			<h1>SignUp Here</h1>
 		</div>
 	 </div>
 	 <div class="signupBox">
@@ -116,7 +125,6 @@
 		  <p>Confirm Password</p>
 		  <input type="password" name="" placeholder="Re-enter password">
 		  <input type="submit" id="btn" value="Register">
-		 
 	  </form>
      </div>
     </div>

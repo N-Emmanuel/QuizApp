@@ -17,7 +17,7 @@
         <h3>QUIZ<span>UP</span></h3>
       </div>
       <div class="rightside">
-        <a class="logout_btn" href="#">Logout</a>
+        <a class="logout_btn" href="..\index.php">Logout</a>
       </div>
     </header>
 <!-- header end -->
@@ -49,10 +49,10 @@
         <div id="settings"><?php include '../includes/settings.layout.php'; ?></div>
         <div id="students"><?php include '../includes/students.layout.php'; ?></div>
 	</main>
-      
+
 	<!-- end of content -->
   </div> 
   <!-- main cotainer end -->
     <script src="../js/dashboard.js"></script>
 </body>
-</html>
+</html>C:\Users\emmanuel\QuizApp\others\admin.php

@@ -6,14 +6,26 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Quizapp</title>
   <link rel="stylesheet" href="css\mystyl.css">
+
+  <style>
+    .container{
+  background: cornflowerblue;
+  width:100vw;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+  </style>
 </head>
 <body>
   <div class="container">
     <div class="home">
       <h1 id="caption">QUIZUP</h2>
-     <a href="#"> <button class="btn"> Login</button></a>
+     <a href="others/admin.php"> <button class="btn"> Login</button></a>
      
-      <a class="btn" href="#"><button class="btn">Register</button></a>
+      <a class="btn" href="others/signup.php"><button class="btn">Register</button></a>
     </div>
   </div>
 </body>
